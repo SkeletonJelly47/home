@@ -129,6 +129,7 @@ a:hover, a:active {
 
 .article-grid-picture {
 	grid-area: picture;
+	padding: 10px;
 }
 
 .article-grid-text {
