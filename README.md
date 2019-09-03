@@ -1,2 +1,2 @@
-# home
-My home page
+# My home page
+The source code of my home page.
