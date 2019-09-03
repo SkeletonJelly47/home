@@ -57,18 +57,59 @@ nav {
 	vertical-align: center;
 }
 
+a:link, a:visited {
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #ffa525;
+	font-family: 'Roboto Slab', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 5em;
+	min-height: 2em;
+	line-height: 2em;
+	padding: 10px;
+}
+
+a:hover, a:active {
+	color: #ff8e1c;
+	text-decoration: underline;
+}
+
 a.alt:link, a.alt:visited {
 	font-family: 'Roboto Slab', sans-serif;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: transparent;
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	min-width: 0em;
+	min-height: 0em;
+	line-height: 0em;
+	padding: 10px;
 }
 
 a.alt:hover, a.alt:active {
-	background-color: rgba(0, 0, 0, 0);
+	background-color: transparent;
 	text-decoration: underline;
+}
+
+a.normal:link, a.normal:visited {
+	font-family: 'Roboto Slab', sans-serif;
+	color: #ffa525;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	background-color: transparent;
+	min-width: 0em;
+	min-height: 0em;
+	line-height: 0em;
+	padding: 0px;
+}
+
+a.normal:hover, a.normal:active {
+	text-decoration: underline;
+	background-color: transparent;
+	color: #ff8e1c;
 }
 
 .bottom-text {
@@ -97,24 +138,6 @@ a.alt:hover, a.alt:active {
 	font-family: 'Roboto Slab', sans-serif;
 	color: white;
 	font-size: 48px;
-}
-
-a:link, a:visited {
-	background-color: rgba(0, 0, 0, 0.4);
-	color: #ffa525;
-	font-family: 'Roboto Slab', sans-serif;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	min-width: 5em;
-	min-height: 2em;
-	line-height: 2em;
-	padding: 10px;
-}
-
-a:hover, a:active {
-	color: #ff8e1c;
-	text-decoration: underline;
 }
 
 /* Article grid layout*/
