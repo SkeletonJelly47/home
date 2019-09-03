@@ -163,6 +163,7 @@ a.normal:hover, a.normal:active {
 	color: white;
 	text-align: left;
 	position: relative;
+	min-width: 600px;
 }
 
 /* Default page layout */
@@ -219,4 +220,37 @@ a.normal:hover, a.normal:active {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+/* Restyle layout for mobile devices */
+
+@media only screen and (max-width: 1500px) {
+	.grid-container {
+		grid-template-areas: 
+		'empty header' 
+		'empty middle'
+		'empty left'
+		'empty bottom';
+		grid-template-columns: 0vw auto 0vw;
+		grid-column-gap: 10px;
+		grid-row-gap: 20px;
+	}
+	
+	.article-grid-container {
+		display: grid;
+		grid-template-areas:
+		'picture picture'
+		'text text';
+		grid-template-columns: 20vw 70vw;
+		grid-column-gap: 10pxp;
+	}
+	
+	.article-grid-text {
+		min-width: 0px;
+		text-align: center;
+	}
+	
+	img {
+		max-height: 300px;
+	}
 }
