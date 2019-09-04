@@ -224,7 +224,7 @@ a.normal:hover, a.normal:active {
 
 /* Restyle layout for mobile devices */
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1279px) {
 	.grid-container {
 		grid-template-areas: 
 		'empty header' 
@@ -257,6 +257,10 @@ a.normal:hover, a.normal:active {
 		font-size: calc(1em + 2vw);
 	}
 	
+	.link-grid-item {	
+		font-size: 5vw;
+	}
+	
 	img {
 		max-height: 300px;
 	}
@@ -266,6 +270,6 @@ a.normal:hover, a.normal:active {
 	}
 
 	h2 {
-		font-size: calc 5vw;
+		font-size: 5vw;
 	}
 }
