@@ -248,7 +248,13 @@ a.normal:hover, a.normal:active {
 	.article-grid-text {
 		min-width: 0px;
 		text-align: center;
-		font-size: calc(1em + 0.5vw);
+		font-size: calc(1em + 4vw);
+	}
+	
+	.middle {
+		min-width: 0px;
+		text-align: center;
+		font-size: calc(1em + 4vw);
 	}
 	
 	img {
