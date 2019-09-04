@@ -248,13 +248,13 @@ a.normal:hover, a.normal:active {
 	.article-grid-text {
 		min-width: 0px;
 		text-align: center;
-		font-size: calc(1em + 4vw);
+		font-size: calc(1em + 2vw);
 	}
 	
 	.middle {
 		min-width: 0px;
 		text-align: center;
-		font-size: calc(1em + 4vw);
+		font-size: calc(1em + 2vw);
 	}
 	
 	img {
@@ -266,6 +266,6 @@ a.normal:hover, a.normal:active {
 	}
 
 	h2 {
-		font-size: calc(2em + 0.5vw);
+		font-size: calc 5vw;
 	}
 }
