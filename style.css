@@ -258,7 +258,7 @@ a.normal:hover, a.normal:active {
 	}
 	
 	.link-grid-item {	
-		font-size: 5vw;
+		font-size: 15vw;
 	}
 	
 	img {
@@ -266,10 +266,10 @@ a.normal:hover, a.normal:active {
 	}
 	
 	h1 {
-		font-size: 10vw;
+		font-size: 15vw;
 	}
 
 	h2 {
-		font-size: 5vw;
+		font-size: 10vw;
 	}
 }
