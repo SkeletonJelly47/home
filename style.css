@@ -231,7 +231,7 @@ a.normal:hover, a.normal:active {
 
 /* Restyle layout for mobile devices */
 
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 1079px) {
 	.grid-container {
 		grid-template-areas: 
 		'empty header' 
