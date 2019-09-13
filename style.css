@@ -155,7 +155,7 @@ a.normal:hover, a.normal:active {
 	grid-template-areas:
     'picture text';
 	grid-template-columns: 20vw 40vw;
-	grid-column-gap: 10pxp;
+	grid-column-gap: 10px;
 }
 
 .article-grid-picture {
