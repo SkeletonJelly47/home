@@ -69,6 +69,7 @@ li {
 
 a:link, a:visited {
 	background-color: rgba(0, 0, 0, 0.4);
+	transition: background-color 0.1s;
 	color: #ffa525;
 	font-family: 'Roboto Slab', sans-serif;
 	text-align: center;
@@ -82,6 +83,7 @@ a:link, a:visited {
 
 a:hover, a:active {
 	color: #ff8e1c;
+	background-color: rgba(0, 0, 0, 0.8);
 	text-decoration: underline;
 }
 
@@ -140,7 +142,7 @@ a.normal:hover, a.normal:active {
 	display: grid;
 	justify-content: center;
 	align-content: center;
-	grid-gap: 5px;
+	grid-gap: 10px;
 }
 
 .link-grid-item {	
@@ -148,6 +150,7 @@ a.normal:hover, a.normal:active {
 	font-family: 'Roboto Slab', sans-serif;
 	color: white;
 	font-size: 3em;
+	box-shadow: 0 5px rgba(0, 0, 0, 0.6);
 }
 
 /* Article grid layout*/
@@ -164,6 +167,7 @@ a.normal:hover, a.normal:active {
 .article-grid-picture {
 	grid-area: picture;
 	padding: 10px;
+	place-self: center;
 }
 
 .article-grid-text {
@@ -195,6 +199,7 @@ a.normal:hover, a.normal:active {
 	background-color: rgba(0, 0, 0, 0.4);
 	text-align: center;
 	font-size: 2em;
+	box-shadow: 0 5px rgba(0, 0, 0, 0.6);
 }
 
 .left {
@@ -209,6 +214,7 @@ a.normal:hover, a.normal:active {
 	padding: 20px;
 	grid-area: middle;
 	background-color: rgba(0, 0, 0, 0.4);
+	box-shadow: 0 5px rgba(0, 0, 0, 0.6);
 }
 
 .bottom {
