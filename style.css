@@ -71,7 +71,7 @@ a:link, a:visited {
 	background-color: rgba(0, 0, 0, 0.4);
 	transition: background-color 0.1s;
 	color: #ffa525;
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -84,11 +84,11 @@ a:link, a:visited {
 a:hover, a:active {
 	color: #ff8e1c;
 	background-color: rgba(0, 0, 0, 0.8);
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a.alt:link, a.alt:visited {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: transparent;
 	color: white;
 	text-align: center;
@@ -147,7 +147,7 @@ a.normal:hover, a.normal:active {
 
 .link-grid-item {	
 	text-align: center;
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 3em;
 	box-shadow: 0 5px rgba(0, 0, 0, 0.6);
