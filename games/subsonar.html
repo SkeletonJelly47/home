@@ -24,8 +24,30 @@
 	
 	<div class = "middle">
 		
-		<p>Details coming soon! I have a lot to tell about this little game, it's pretty special to me. I'll have to find time, I'm sure of it!</p>
+		<p>When the jam started, we quickly had a team together, just some friends and I. I can't remember how exactly we came up with the whole idea, but I remember suggesting the radar mechanic with the reasoning that if the whole game is based on a radar field, we wouldn't need fancy graphics, only dots or simple representations of objects.</p>
 	
+		<p>I always program during game jams since it's just about the only time I really get to program these days. I started with creating some simple player movement code. I wanted the submarine to be slow and deliberate, meaning that you couldn't make quick corrections to your trajectory. I wanted the player to be careful, predict incoming enemies and their actions.</p>
+		
+		<h2>Sound Cues</h2>
+		
+		<p>To help with the reduced visibility of the radar, we had sound implementation from the start. Some of the ways we aid players in detecting enemies include a beeping sound whenever an enemy is in a specific radius of the player. The enemy doesn't need to be visible, if it's in that radius, the player will be notified. This is just so that the player has a clear distinction of when they're in danger and when they're not.</p>
+		
+		<p>In addition, all enemy projectiles make an additional sound when they are fired and on their way. The sound of the incoming projectiles is also modified depending on how close they are to the player. Most of the player abilities also have sound cues when recharged to mitigate the need to constantly look at the UI.</p>
+		
+		<p>These are some of the things that aid to prevent the player from getting into sticky situations. Normally, if the player fails to help theirselves in this phase, damage will be inevitable.</p>
+		
+		<h2>Enemies</h2>
+		
+		<p>Enemies are pretty standard, there are some that chase you, some that shoot you. The boss does both. What is most impressive is how the enemies are varied. The variations differ pretty wildly from each other and require different methods to beat. The projectile enemies specifically mess with the player, having conflicting ways to beat. The method to defeat the base version is probably the worst solution against the yellow one.</p>
+		
+		<p>The chasing enemies are simple, but provide depth in the way of being able to clear obstacles for players. A smart player can get through even thick crowds of obstacles by abusing a mine on the other side. One of the variations (big one) can single handedly clear a path for the player if used smartly.</p>
+		
+		<h2>Level Generation</h2>
+		
+		<p>The generation is definitely janky. What it does is basically divide the play area into chunks, then go over each chunk and decide if it wants to place an entity there. If it does, it also randomizes the location a bit in order to avoid just grids of entities. It does this first for obstacles, then enemies. It also spawns some deterministic landmarks like a line of obstacles or a square of obstacles. The size and rotation of these landmarks is randomized. Once everything has been generated, it checks if anything overlaps, if it does, then it deletes one of the overlapping entities and keeps checking chunks until all of them have been checked. The end result is a play area that isn't very clear, there's no real sense of direction, even with the added landmarks. Perlin noise or something similar would have been great, but not possible due to my skills and time limitations.</p>
+		
+		<p>More coming later, this page is a work in progress.</p>
+		
 		<div class = "article-grid-container">
 			<div class = "article-grid-text"></div>
 		</div>
