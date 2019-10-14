@@ -2,10 +2,10 @@ body {
 
 }
 
-html { 
-	min-height: 100vh;
-	background-color: #171219;
-	background-size: cover;
+html {
+    min-height: 100vh;
+    background-color: #002F1E;
+    background-size: cover;
 }
 
 header {
@@ -13,28 +13,28 @@ header {
 }
 
 h1 {
-	color: #ffa525;
-	font-family: 'Raleway', sans-serif;
-	font-size: 3em;
-	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #D68800;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 h2 {
-	color: #ffa525;
-	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
-	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    color: #D68800;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 div {
 	text-align: center;
-	color: white;
+	color: #EFEFEF;
 }
 
 footer {
 	text-align: left;
 	font-family: sans-serif;
-	color: white;
+	color: #EFEFEF;
 	font-size: 0.75em;
 	
 	bottom: 0;
@@ -43,9 +43,9 @@ footer {
 }
 
 p {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1em;
-	color: white;
+	color: #EFEFEF;
 	text-align: left;
 	padding: 10px;
 }
@@ -61,9 +61,9 @@ nav {
 
 li {
 	padding: 5px;
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1em;
-	color: white;
+	color: #EFEFEF;
 	text-align: left;
 }
 
@@ -71,7 +71,7 @@ a:link, a:visited {
 	background-color: rgba(0, 0, 0, 0.4);
 	transition: background-color 0.1s;
 	color: #ffa525;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -88,9 +88,9 @@ a:hover, a:active {
 }
 
 a.alt:link, a.alt:visited {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	background-color: transparent;
-	color: white;
+	color: #EFEFEF;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -106,7 +106,7 @@ a.alt:hover, a.alt:active {
 }
 
 a.normal:link, a.normal:visited {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	color: #ffa525;
 	text-align: center;
 	text-decoration: none;
@@ -132,7 +132,7 @@ a.normal:hover, a.normal:active {
 	right: 0;
 	font-family: sans-serif;
 	font-size: 1em;
-	color: white;
+	color: #EFEFEF;
 }
 
 /* Link grid layout */
@@ -147,8 +147,8 @@ a.normal:hover, a.normal:active {
 
 .link-grid-item {	
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	color: #EFEFEF;
 	font-size: 3em;
 	box-shadow: 0 5px rgba(0, 0, 0, 0.6);
 }
@@ -173,9 +173,9 @@ a.normal:hover, a.normal:active {
 .article-grid-text {
 	grid-area: text;
 	padding: 10px;
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 1em;
-	color: white;
+	color: #EFEFEF;
 	text-align: left;
 	position: relative;
 }
