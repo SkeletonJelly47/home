@@ -26,6 +26,14 @@ h2 {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
+h3 {
+    color: #D68800;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    text-align: left;
+}
+
 div {
 	text-align: center;
 	color: #EFEFEF;
