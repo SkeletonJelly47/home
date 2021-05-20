@@ -175,7 +175,7 @@ a.normal:hover, a.normal:active {
 .article-grid-picture {
 	grid-area: picture;
 	padding: 10px;
-	place-self: center;
+	place-self: top;
 }
 
 .article-grid-text {
