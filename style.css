@@ -58,6 +58,13 @@ p {
 	padding: 10px;
 }
 
+p.highlight {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
+	color: #D68800;
+	text-align: left;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
