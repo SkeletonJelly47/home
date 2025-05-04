@@ -1,30 +1,183 @@
 <!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-<link rel="shortcut icon" href="skeleton.ico" />
+<link rel="shortcut icon" href="skeleton.ico"/>
 <html>
 <head>
-  <title>Mikko Peltola</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+  <link rel = "stylesheet" href = "style.css">
 </head>
 
-<body>
-  <header>
-    <h1>
-      Mikko Peltola
-    </h1>
-
-    <h2>
-      Game Programmer
-    </h2>
-  </header>
-
-  <div class="link-grid-container">
-    <div class="link-grid-item"><a href="portfolio.html">Portfolio</a></div>
-    <div class="link-grid-item"><a href="me.html">Bio</a></div>
-    <div class = "link-grid-item"><a href = "contact.html">Contact</a></div>
+<div class = "grid-container">
+  <div class = "header">
+    <h1>Portfolio</h1>
   </div>
 
-  <img src="image/MikkoCrop2.png" class="center-image" alt="Mikko Peltola" style="width: 150px; height: 150px; text-align: center;">
+  <div class = "left">
+    <div class = "link-grid-container">
+      <div class = "link-grid-item"><a href = "index.html">Portfolio</a></div>
+      <div class = "link-grid-item"><a href = "me.html">Bio</a></div>
+      <div class = "link-grid-item"><a href = "contact.html">Contact</a></div>
+    </div>
+  </div>
+
+  <div class = "middle">
+
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/MikkoCrop2.png" alt = "Mikko Peltola"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "me.html">More about me</a></h2>
+
+        <p>I'm a game programmer with 3+ years of professional experience in the industry.
+        Worked on mobile, PC and multiplatform projects, several of them released.
+        Primary engine is Unity, I've been using it since 2015.
+         </p>
+
+        <p>Here I detail my skill-set as a developer and tell more about my views on working. Also a compilation of my past positions and associations.</p>
+
+        <div class = "bottom-text">
+          <a href = "me.html">Read more</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Carcade-->
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/carcade_splash_crop.png" alt = "Carcade logo"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "games/carcade.html">Drive Ahead! Carcade</a></h2>
+
+        <p><a class = "normal" target="_blank" rel= "noopener" href="https://apps.apple.com/us/app/drive-ahead-carcade/id6468031571">Drive Ahead! Carcade (2024)</a> is a multiplatform, online multiplayer, casual car battler that is best played with friends!
+        Released on Apple Arcade in November of 2024 for iOS, macOS and tvOS devices.</p>
+
+        <p>For this project, we wanted to modernize our way of working, improve our speed of learning, overall quality and reduce defect rates.
+        To achieve this, we adopted <b>pair programming</b>, <b>trunk based development</b>, <b>automated tests</b> and <b>user story mapping</b> as practices into the team.
+        Learning these new practices took time and the willingness to learn, but ultimately it was worth it.
+        We shipped the game on time, with technical quality far exceeding our previous projects.
+        I worked on player progression features, UI architechture and navigation, car skin system and everything in between.</p>
+
+        <p>Carcade is by far the project I'm most proud of, and I cant wait to make something even better!
+        Unfortunately my employment came to close after 3.5 years due to financial hardships at the company.
+        Very grateful to the awesome folks at Dodreams who provided me the space to learn.
+        Keep making awesome stuff ❤️</p>
+
+        <div class = "bottom-text">
+          <a href = "games/carcade.html">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Drive Ahead-->
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/da_logo.png" alt = "Drive Ahead! logo"></div>
+      <div class = "article-grid-text">
+        <h2>Drive Ahead!</h2>
+
+        <p>Welcome to <a class = "normal" target="_blank" rel= "noopener" href="https://play.google.com/store/apps/details?id=com.dodreams.driveahead">Drive Ahead! (2015)</a>, you win by hitting your friends on the head with cars!
+        Drive Ahead is the ultimate multiplayer battling retro game with cars, unpredictable chaos and driving.
+        Battle with fun cars, a monster truck, tank or 4x4 off-roader.
+        Driving cars in online or offline coop games have never been this fun!</p>
+
+        <p>I started working at <a class = "normal" target="_blank" rel= "noopener" href="https://www.linkedin.com/company/dodreams/">Dodreams</a> in 2022, and I was brought on to work on new game modes, monetization and economy features.
+        I started on UI programming and gradually started branching to client/server code.
+        Working in a long lived code base had its challenges, but was a great learning experience after almost exclusively working on brand new projects in my education.</p>
+
+        <p>Alongside the feature work, I started to learn other facets of our pipelines, namely our LiveOps tools and our TeamCity build pipeline.
+        Getting to work on Drive Ahead was a great way to get my hands dirty with live game development.</p>
+
+      </div>
+    </div>
+
+    <!--Thesis-->
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/thesis_thumbnail.png" alt = "Thesis"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "games/thesis.html">Thesis - Replicating Source Engine Air Strafing in Unity</a></h2>
+
+        <p>I completed my thesis in November of 2021 and it's available on <a class = "normal" target="_blank" rel= "noopener" href="https://urn.fi/URN:NBN:fi:amk-2021111720476">Theseus.fi</a>.</p>
+
+        <p>The work goes over the history of air strafing, it's various appearances in games, practical usage, the math of air strafing and a game demo made in the Unity game engine. The thesis is made with <a class = "normal" target="_blank" rel= "noopener" href="https://www.latex-project.org/">LaTeX</a> as I wanted to learn a new markup language and expand my skillset.</p>
+
+        <p>This work now concludes my game programming studies at KUAS and I graduated with a Bachelor's Degree in Business Information Technology.</p>
+
+        <div class = "bottom-text">
+          <a href = "games/thesis.html">Read more</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!--CSE Internship-->
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/runbeat_logo.png" alt = "runBEAT logo"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "games/internship.html">runBEAT</a></h2>
+
+        <p><a class = "normal" target="_blank" rel= "noopener" href = "https://www.youtube.com/watch?v=o0vqJQMXZMw">runBEAT</a> is a Unity game that is played on a motorless treadmill and it's deployed all over the world.
+        It makes running into a more social experience, since people can run at their own pace while still running side by side.</p>
+
+        <p>I had my mandatory 5 month internship at <a class = "normal" target="_blank" rel= "noopener" href = "https://www.cse.fitness/en_US/">CSE Entertainment</a>, a Kajaani based company delivering exergaming products and services.
+        While working on the project, I got a lot of experience working with an existing product that contained a lot of legacy code.
+        A substantial portion of my time was dedicated to refactoring the code to make it more maintainable.</p>
+
+        <p>I also got to teach the team GitFlow version control practices with a one week mini project, with all the team members collaborating rapidly.</p>
+
+        <div class = "bottom-text">
+          <a href = "games/internship.html">Read more</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Dashbot Ninja-->
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/sNinja.png" alt = "Dashbot Ninja"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "games/ninja.html">Dashbot Ninja</a></h2>
+        <p><a class = "normal" target="_blank" rel= "noopener" href = "https://www.youtube.com/watch?v=p6-KKDm4y3c">Dashbot Ninja (2019)</a> is a fast paced PC game where you dash through the office buildings of evil corporates
+        while slicing through their robotic henchmen.</p>
+
+        <p>This project was a bit different as we only had 3 people in the team in total. I worked as a gameplay programmer on this project, and was responsible for all of the player mechanics and music.</p>
+
+        <p>We scoped the game for our smaller than usual team, and still aimed for a commercial, finished project. We succeeded in this and the result is one of the best games I've made. The game launched on <a class = "normal" target="_blank" rel="noopener" href = "https://store.steampowered.com/app/1193950/Dashbot_Ninja/">Steam</a> and Google Play Store simultaneously.</p>
+
+        <div class = "bottom-text">
+          <a href = "games/ninja.html">Read more</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Frog Out-->
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/thumbnail/Frog_Out_Header.jpg" alt = "Frog Out!"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "games/frogs.html">Local couch multiplayer frogs</a></h2>
+        <p><a class="normal" target="_blank" rel="noopener" href="https://store.steampowered.com/app/921720/Frog_Out/">Frog Out! (2018)</a> is a wacky local multiplayer party game for up to 4 players. It's time for you and your friends to find out who is the slickest and the craftiest frog in the pond. Channel your inner frog and jump to victory!</p>
+
+        <p>This was my first project where I took on the role of a designer. Up until this project I was always a programmer, and wanted to try being a designer, so I did.</p>
+
+        <p>Turned out designing wasn't my thing and I still learned a lot through out the project. We submitted the game to Assembly Game Dev competition and won first place! We also placed second in the Hatch Party Game competition. The project was released on Steam</p>
+
+        <div class = "bottom-text">
+          <a href = "games/frogs.html">Read more</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class = "article-grid-container">
+      <div class = "article-grid-picture"><img src = "image/Misc.png" alt = "Misc"></div>
+      <div class = "article-grid-text">
+        <h2><a class = "normal" rel= "noopener"  href = "games/other.html">Miscellanious and unreleased projects</a></h2>
+        <p>A compilation of other work that don't have enough going to get their own pages. This includes old school projects or hobby projects</p>
+        <div class = "bottom-text">
+          <a href = "games/other.html">Read more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <div class="bottom">
     <nav>
@@ -33,10 +186,10 @@
     </nav>
   </div>
 
-  <footer>
-    Hosted with GitHub Pages.
-  </footer>
+</div>
 
-</body>
+<footer>
+  Hosted with GitHub Pages.
+</footer>
 
 </html>
